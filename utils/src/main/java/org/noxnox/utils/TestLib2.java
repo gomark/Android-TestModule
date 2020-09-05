@@ -2,6 +2,7 @@ package org.noxnox.utils;
 
 public class TestLib2 {
     private int value1;
+    private int value2;
 
     public int getValue1() {
         return value1;
