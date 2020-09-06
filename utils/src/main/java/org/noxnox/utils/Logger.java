@@ -135,6 +135,7 @@ public final class Logger {
         }
     }
 
+    @SuppressLint("LogTagMismatch")
     public void d(final String format, final Object... args) {
         if (isLoggable(Log.DEBUG)) {
             Log.d(tag, toMessage(format, args));
